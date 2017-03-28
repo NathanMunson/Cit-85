@@ -1,0 +1,7 @@
+div  {
+    height: 200px;
+    width: 200px;
+    Background-color: teal;
+    border-radius: 50% 10% 45% 97%;
+    border: groove navy 20px;
+}
