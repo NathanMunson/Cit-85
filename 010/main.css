@@ -1,0 +1,28 @@
+html {
+    Font-size: 38px;
+}
+body {
+    Height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+
+}
+p{
+    width: 55%;
+    border: 1px solid navy;
+    padding: 30px;
+    box-sizing: border-box;
+
+}
+ p::first-line {
+     color: teal;
+
+ }
+ p::first-letter {
+     font-size: 70px;
+     color: darkturquoise;
+ }
+

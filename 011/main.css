@@ -1,0 +1,27 @@
+html {
+    Font-size: 38px;
+}
+body {
+    Height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+div p {
+    color: red;
+}
+div > p {
+    color: gold;
+}
+
+div + p {
+    color: deepskyblue;
+}
+
+div ~ p {
+    color: chartreuse;
+}
