@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    Flex-direction: row;
+    flex-wrap: nowrap;
+
+}
+
+div {
+
+    border: 5px solid red;
+}
+
+p {
+
+}
+li {
+
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+#menue {
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+
+}

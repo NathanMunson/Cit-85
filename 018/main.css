@@ -1,0 +1,39 @@
+html, body, h1, div, header {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body {
+    position: fixed;
+
+
+    width: 50vw;
+    height: 20vh;
+
+    display: flex;
+    flex-direction: row;
+    border: 8px solid red;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+div {
+    padding: 10px;
+    border: 1px solid navy;
+
+    color: black;
+    width: 150px;
+}
+
+#self {
+    align-self: flex-start;
+    order: -2;
+}
+
+#no {
+
+    align-self: center;
+    flex-grow: 3;
+}

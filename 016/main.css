@@ -1,0 +1,99 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 7vh;
+
+    border: cornflowerblue;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+align-items: center;
+background-color: rgba(0, 0, 128, .2);
+}
+
+
+section {
+    position: fixed;
+    top: 7%;
+    left: 0;
+    width: 50vw;
+    height: 50vh;
+
+    border: cornflowerblue;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 128, .2);
+    background-image: url("puppy2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+aside {
+    position: fixed;
+    top: 7%;
+    left: 50%;
+    width: 50vw;
+    height: 93vh;
+
+    border: cornflowerblue;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 128, .2);
+    background-image: url("puppy1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+article {
+    position: fixed;
+    top: 57%;
+    left: 0%;
+    width: 50vw;
+    height: 45vh;
+
+    border: cornflowerblue;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 128, .2);
+    background-image: url("puppy3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: 7vh;
+
+    border: cornflowerblue;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 128, .2);
+}
+
+
+

@@ -1,0 +1,126 @@
+html {
+
+    box-sizing: border-box;
+}
+
+
+body {
+
+    background-image: url("lake.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+
+h1 {
+
+    font-family: 'Dancing Script', cursive;
+    color: steelblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+
+
+
+}
+
+
+
+.s01 {
+
+    border-radius: 25px 25px 25px 25px;
+    background-color: green;
+    margin: 5px;
+    padding: 5px;
+
+
+
+}
+
+
+
+.s02 {
+
+    border-radius: 25px 25px 25px 25px;
+    background-color: green;
+    margin: 5px;
+    padding: 5px;
+
+
+}
+.s03 {
+
+    border-radius: 25px 25px 25px 25px;
+    background-color: green;
+    margin: 5px;
+    padding: 5px;
+
+}
+.s04 {
+
+    border-radius: 25px 25px 25px 25px;
+    background-color: green;
+    margin: 5px;
+    padding: 5px;
+
+}
+.s05 {
+
+    border-radius: 25px 25px 25px 25px;
+    background-color: green;
+    margin: 5px;
+    padding: 5px;
+    
+}
+
+.blue {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 45vh;
+    width: 100vW;
+    background-color: #a0ffce;
+    opacity: .3;
+
+}
+
+.green{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 45vh;
+    width: 100vW;
+    background-color: lightgreen;
+    opacity: .3;
+}
+
+.purple{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 45vh;
+    width: 100vW;
+    background-color: plum;
+    opacity: .3;
+}
+
+.red{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 45vh;
+    width: 100vW;
+    background-color: lightcoral;
+    opacity: .3;
+}

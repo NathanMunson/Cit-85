@@ -1,0 +1,33 @@
+div {
+    width: 200px;
+    height: 100px;
+    border: 2px solid navy;
+    border-radius: 35%;
+    display: inline-block;
+
+}
+
+.drb1 {
+
+    background-color: green;
+
+
+}
+
+.drb2 {
+
+    background-color: chocolate;
+
+}
+
+.drb3 {
+
+    background-color: firebrick;
+
+
+}
+
+.drb4 {
+
+   background-color: turquoise;
+}

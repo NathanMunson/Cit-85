@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    Flex-direction: column;
+}
+
+
+#menue {
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}

@@ -1,0 +1,13 @@
+#s01 {
+    position: fixed;
+    top: 30px;
+    left: 25px;
+    border: 5px solid red;
+}
+
+#s02 {
+    position: relative;
+    top: 100px;
+    left: 75px;
+    border: 5px solid red;
+}

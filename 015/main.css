@@ -1,0 +1,104 @@
+html, body, h1, div, header {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 7vh;
+
+    border: cornflowerblue;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color:  rgba(0,0,128,.2);
+}
+
+header > div {
+    padding: 10px;
+    border: 1px solid navy;
+    margin: 0 20px;
+    color: white;
+    width: 150px;
+}
+
+body {
+
+    background-image: url("paradise.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    background-image: url("paradise.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+
+}
+
+html {
+
+    font-size: 100px;
+}
+
+main {
+    font-size: 20px;
+}
+
+
+
+h1 {
+
+    font-family: 'Dancing Script', cursive;
+    color: steelblue;
+}
+
+h1:nth-child(1) {
+    font-size: 400%;
+    border: 1px solid navy;
+
+}
+
+h1:nth-child(2) {
+    font-size: 4em;
+    border: 1px solid navy;
+}
+
+
+h1:nth-child(3) {
+    font-size: .8rem;
+    border: 1px solid navy;
+
+}
+
+h1:nth-child(4) {
+    font-size: 80px;
+    border: 1px solid navy;
+
+}
+
+h1:nth-child(5) {
+    font-size: 4.17vw;
+    border: 1px solid navy;
+
+}
+
+
