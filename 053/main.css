@@ -1,0 +1,16 @@
+body {
+    background-color: midnightblue;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+
+h1 {
+    font-size: 1rem;
+    color: deepskyblue;
+}
